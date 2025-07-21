@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <style>
+        table{
+            width: 500px;
+            height: 250px;
+            margin: auto;
+            border-style: outset;
+            border-width: 1px;
+            border-color: rgb(170, 169, 169);
+
+        }
+        th, td{
+            border-style: inset;
+            border-color: rgb(170, 169, 169);
+            border-width: 1px;
+
+        }
+        .hey{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div style="margin: 100px;">
+        <table>
+            <caption> Seminar Time Table </caption>
+                <tr>
+                    <th rowspan="3"> Day </th>
+                    <th colspan="3"> Seminar </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> Schedule </th>
+                    <th rowspan="2"> Topic </th>
+                </tr>
+                <tr>
+                    <th> Begin </th>
+                    <th> End </th>
+                </tr>
+                <tr>
+                    <td rowspan="2"> Monday </td>
+                    <td rowspan="2"> 8:00 a.m. </td>
+                    <td rowspan="2"> 5:00 p.m. </td>
+                    <td class="hey"> Introduction to XML </td>
+                </tr>
+                <tr>
+                    <td> Validity: DTD and Relax NG</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">Tuesday</td>
+                    <td rowspan="1">8:00 a.m.</td>
+                    <td rowspan="1">11:00 a.m.</td>
+                    <td rowspan="3" class="hey" style="padding: 7px;"> XPath </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">11:00 a.m.</td>
+                    <td rowspan="3" >2:00 p.m.</td>
+                    <td style="border: none;"></td>
+                </tr>
+                <tr>
+                    <td style="border: none;"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="hey">XSL Transformations</td>
+                </tr>
+                <tr>
+                    <td>2:00 p.m.</td>
+                    <td>5:00 p.m.</td>
+                </tr>
+
+                    <!--<td rowspan="3" style=" padding: 0%; margin: 0%;" >
+                        <table width="100%" height="100%" style="height: 100%; ">
+                          <tr>
+                            <td class="sweet">
+                              <p>XPath</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="sweet">
+                              <p>XSL Transformation</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    -->
+
+                <tr>
+                    <td> Wednesday </td>
+                    <td> 8:00 a.m. </td>
+                    <td> 12:00 p.m. </td>
+                    <td class="hey"> XSL Formatting Objects </td>
+                </tr>
+        </table>
+    </div>
+</body>
+</html>
+

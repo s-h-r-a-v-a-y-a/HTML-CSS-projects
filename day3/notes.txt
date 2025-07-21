@@ -1,0 +1,109 @@
+CSS
+->verson 3.0
+a. inline - style attr: <tag style="property:property val;">
+b. internal - <style> in head
+c. external - .css file to link to main html. <link href=".css/s.css" rel=stylesheet>
+
+css combinators:
+1. descendant selector
+selector selector (Can be any selector)
+<div>
+<p>
+</p>
+<p class="me">
+</p>
+</div>
+stylng to this p in div
+div p{
+}
+for particular p
+div .p{
+}
+
+2. child selector
+parent > child{}
+or granpa > parent > child
+styling applies on child
+
+3. adjacent/immediate/next sibling selector
+styling applied to immediate sibling
+sib + imm sib
+
+4. general/subsequent sibling selector
+sib~sib2
+all sib2 after sib will be styled
+/* */
+
+colors:
+1. name
+2. rgb
+3. hexcode : #sth (preferable)
+
+background:
+background-color
+-image: url('')
+-repeat
+-attachment
+-position (right top, right bottom, left top, left bottom, top, bottom)(default left top)
+background (shorthand property)
+
+background-color: red
+opacity: 0.6
+background-color: rgba(0,245,230,0.6)
+rgba(a->alpha->opacity)
+opacity works with bg image too, looks cool:
+text-clr{
+    background-color:
+    color:
+    opacity:
+}
+ima{
+    background-image:
+}
+creates a glass effect
+
+to avoid repetition in the areas not filled by image:
+background-repeat: no-repeat
+other vals: repeat-x, repeat-y
+
+background-attachment: fixed (even when you scroll it is fixed)
+: scroll (will scroll up as you go down)
+
+background-size:
+-cover (covers whole page) (mostly used)
+-inherit (inherits the size of the container/parent)
+-initial works same way as inherit
+-auto
+-contains (same as image, no change) (mostly used)
+
+background(shorthand): color image repeat position
+
+border:
+border-width
+border-style
+border-right-style (ly, for left, top, bottom)(ly can mention top,etc for other border prop)
+border-color
+border-left : none (left border removed, ly for other pos)
+border(shorthand): 2px solid color (width style color)
+border-radius: 12px (gives curve at the edges)
+
+box model:
+margin->border->padding->element/content
+inside border-> padding
+outside border -> margin
+
+margins:
+margin: 200px (spacing through right, left, top, bottom)(instead of px, use % for accomodating different screen sizes, different screen sizes have different pixels, so px not good practice)
+margin-top or margin-bottom or m-left or m-right: for specific margins
+margin(shorthand): top right bottom left 
+
+padding:
+padding(shorthand): top right bottom left 
+same padding-top,etc as margin
+
+width: , height: ,(try with %, if no work, then px)
+mostly go for width: auto
+maxwidth, minwidth, maxheight, minheight
+
+task:
+read all theory from w3 on css on topics covered today (until boxmodel)

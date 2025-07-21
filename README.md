@@ -3,7 +3,9 @@
 This repository showcases a collection of **HTML** and **CSS** projects ranging from beginner-level layouts to more advanced, responsive web designs. 
 It's a hands-on journey of building static websites with clean, maintainable code and modern layouts.
 
+
 ---
+
 
 ## 📁 Project Structure
 
@@ -14,7 +16,9 @@ Resume/ # A clean resume design using pure CSS
 ShoppingWebsiteHome/ # A homepage for a shopping website
 table.html # A styled table example
 
+
 ---
+
 
 ## ✨ Highlights
 
@@ -25,7 +29,9 @@ table.html # A styled table example
 - 🧩 Reusable components (headers, navbars, product cards, tables, footers)
 - 🚀 Real-world mini projects for learning and showcasing
 
+
 ---
+
 
 ## Projects
 

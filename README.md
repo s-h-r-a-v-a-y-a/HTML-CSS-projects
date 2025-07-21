@@ -16,9 +16,6 @@ table.html # A styled table example
 
 ---
 
-
----
-
 ## ✨ Highlights
 
 - ✅ Semantic HTML5 structure
@@ -38,6 +35,13 @@ A fully responsive and structured website with multiple sections, including:
 - Hero section
 - Services or products
 - Responsive design for mobile/tablet/desktop
+
+### 🔹 GroceryHomePage/
+A beginner-friendly grocery website layout with:
+- Sectioned homepage design
+- Highlighted deals and features
+- Visually structured using Flexbox and Box Model
+- Great for understanding layout fundamentals
 
 ### 🔹 ShoppingWebsiteHome/
 A static homepage designed for an online shopping platform, featuring:

@@ -1,0 +1,144 @@
+border-radius: top-r top-l bottom-r bottom-l
+
+border: 10px solid transparent;
+bordere-image: url() 30(slicing) round;
+path slice repeat(rounded/repeat)
+
+multiple background:
+background: url(), url()
+background-position: px or % or top bottom, same
+background-repeat: repeat, repeat
+
+background-image: linear-gradient
+repeated-linear-gradient
+radial-gradient
+
+text-shadow: x-offset y-offset blur-radius color
+
+@fontface{
+    used when you want use custom font not available online
+    font-family: nameoffont;
+    src: url(name.woff)
+}
+
+different fonts:
+woff
+otf 
+ttf
+
+2D transform: change visualisations of a div without impacting other CSS properties like text size etc
+transform: translate(xaxis, yaxis)
+rotate(120deg)
+scale(2,3) 2times of width and 3times of height: increase and dec size
+scaleX(3) width increases
+scaleY() height
+skewX(20deg) tilt/skew in x axis
+skewY()
+skew(20deg,10deg): x and y axis
+matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(), translateY()) combines everything
+
+check 3D transformations
+
+transition:
+change property vals smoothly over a pseudo fn
+transition: width 2s 
+2s is duration
+transition-timing-function: ease (slow start, fast, slow end) (default),linear, ease-in (slow start), ease-out (slow-end), ease-in-out (slow start and end)
+
+transition-delay:
+
+tailwind preferred
+bootstrap: more heavy and less customisation as CSS cant be overriden
+
+read until CSS variables
+
+whitespace:nowrap / wrap 
+overflow: hidden / visible
+text-overflow: clip / ellipsis
+word-wrap: break-word (breaks at long word) / break-all(breaks at any char) / keep-all (breaks at hyphen)
+writing-mode: horizontal-tb / vertical-rl
+
+transition: property duration
+The transition effect will start when the specified CSS property (width) changes value.
+transition-delay: 2s
+shorthand:
+   transition: width 2s(duration) linear 1s(delay);
+transition + transform
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+(changes when animation 0% 25% complete)
+animation-name: example;
+animation-duration: 4s;
+animation-delay: 2s;
+if given -2s animation starts as if 2s of its duration already done
+animation-iteration-count: 3 / infinite
+  animation-direction: reverse /normal / alternate ( animation run forwards first, then backwards) / alternate-reverse
+animation-timing-function: same as the other
+animation-fill-mode: forwards/backwards/both
+shorthand:
+   animation: example 5s linear 2s infinite(iteration) alternate(direction);
+
+filter: 
+    blur()
+    brightness()
+    contrast()
+    drop-shadow()
+    grayscale()
+    hue-rotate()
+    invert()
+    opacity()
+    saturate()
+    sepia()
+
+image centering : flex and margin: auto
+
+image shaping to different shapes:
+  clip-path: circle(40%);
+  shape-outside: circle(45%);
+  ellipse(x-axis, y-axis)
+ polygon()
+
+ object-fit: cover containfill scale-down
+ object-position: x y;
+x: % or top bottom
+
+mask layer:
+  mask-image: url(w3logo.png);
+  mask-repeat: no-repeat;
+image, linear gradient and text with scroll on top, radial gradient
+
+resize: horizontal / vertical / both / none;
+overflow: auto;
+allows resizing by user but overflow to be mentioned
+
+columns:
+
+    column-count
+    column-gap
+    column-rule-style
+    column-rule-width
+    column-rule-color
+    column-rule
+    column-span
+    column-width
+
+   column-rule: 1px solid lightblue;
+
+   
+CSS variables:
+ var(--name, value)
+global declared in :
+: root{
+    --blue : #ffff;
+}
+local in that particular selector

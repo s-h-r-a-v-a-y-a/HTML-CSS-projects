@@ -1,0 +1,954 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Manrope",sans-serif;
+    margin: 0;
+}
+.header{
+        background-image: url("../images/Rectangle 1.png");
+        background-size: cover;
+        padding-top: 1%;
+    
+}
+
+.head-img{
+    display: none;
+}
+.menubars, .hidden-menu{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    justify-content: right;
+    padding-right: 9%;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navlink{
+    display: flex;
+    gap: 40px;
+    padding-top: 1%;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar button{
+    width: fit-content;
+    height: fit-content;
+    padding: 1% 2%;
+    border-radius: 5px;
+    border: none;
+    background-color: #F84646;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.head-content{
+    padding: 8% 8%;
+    width: 56%;
+}
+
+.hc1{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.hc2{
+    line-height: 2rem;
+    padding-top: 4%;
+}
+
+.head-mail{
+    position: relative;
+    padding-top: 5%;
+}
+.head-mail input{
+    width: 76%;
+    border-radius: 8px;
+    border: none;
+    outline-color: white;
+    outline: none;
+    padding: 3.7%;
+    padding-left: 6%;}
+
+.head-mail button{
+    background-color: #F84646;
+    position: absolute;
+    left: 55.2%;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 3% 5%;
+    top: 37%;
+}
+
+.frame1{
+    padding: 7% 8%;
+    text-align: center;
+}
+
+.f1-title{
+    font-size: 1.8rem;
+    font-weight: 700;}
+
+.f1-desc{
+    font-size: 1.1rem;
+    padding: 2% 19%;
+    line-height: 1.8rem;
+    padding-bottom: 0;
+}
+
+.c1{
+    font-size: 1.1rem;
+    padding: 3%;
+    font-weight: 800;
+}
+
+.c2{
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+.flex-cont1{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3%;
+}
+
+.card{
+    width: 23%;
+    padding-top: 6%;
+}
+.circle{
+    background-color: #ff5391d1;
+    padding: 1.3rem;
+    border-radius: 69%;
+    width: 23%;
+    position: absolute;
+    top: 0rem;
+    left: 2rem;
+    z-index: -1;
+}
+
+.img-cont{
+    width: 76px;
+    height: 76px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.img-cont img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.frame2{
+    background-color: #F84646;
+    padding: 4rem 8rem;
+    text-align: center;
+    color: white;
+}
+
+
+.flex-cont2{
+    display: flex;
+    padding-top: 4rem;
+    justify-content: space-evenly;
+}
+.f2-title{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.f2-desc{
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+.card2{
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    width: 15%;
+    text-align: left;
+}
+
+.flex-cont2 img {
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+
+.frame3{
+    padding: 8rem 6rem;
+    padding-bottom: 2rem;
+}
+
+.f3sec{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+
+}
+
+.sec-content{
+    position: relative;
+    width: 44%;
+    padding-right: 5%;
+}
+.sec-content button{
+    position: absolute;
+    background-color: #F84646;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0.8rem 3rem;
+    border-radius: 0.4rem;
+    left: 0;
+    bottom: 0;
+}
+
+.sec-head{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.sec-desc{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #808080;
+    line-height: 1.5rem;
+    padding: 2rem 0;
+}
+
+
+.img-cont3{
+    width: 450px;
+    height: 430px;
+}
+
+.img-cont3 img{
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+}
+
+.frame4{
+    padding: 2rem 10rem;
+    text-align: center;
+    background-color: #F4F5F7;
+    padding-bottom: 0;
+}
+
+.f4-title{
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #18191F;
+}
+
+.f4-desc{
+    font-size: 1rem;
+    color: #18191F;
+    padding: 0.5rem;
+}
+
+.f4-logos{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.logo{
+    background-color: white;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1.4rem 1rem;
+    width: 178px;
+    height: 86px;
+}
+
+.logo1{
+    background-color: white;
+    margin: 1rem;
+    border-radius: 10px;
+    width: 180px;
+    height: 90px;
+}
+
+.logo1 img {
+    width: 91%;
+}
+
+.logo img {
+    width: 90%;
+}
+
+.col{
+    margin: auto 0;
+    width: 21%;
+}
+
+.frame5{
+    text-align: center;
+    padding: 10rem 10rem;
+}
+
+.user-logo{
+    position: relative;
+    width: 20%;
+    margin: 0 auto;
+}
+.oc2{
+    background-color: #F84646;
+    left: 6rem;
+    padding: 1.7rem;
+}
+
+.f5-title{
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.f5-desc{
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 0.3rem;
+    padding-bottom: 1.7rem;
+}
+
+.frame5 button{
+    background-color: #F84646;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1.2rem 2.1rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.foot{
+    background-color: #F84646;
+    color: #E5E5E5;
+    padding: 2rem 5rem;
+    font-size: 0.8rem;
+    position: relative;
+}
+
+.foot1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+.foot-txt1{
+    line-height: 2rem;
+}
+
+.foot-txt2{
+    color: white;
+    font-weight: 700;
+}
+
+.foot2{
+    color: white;
+    padding: 1rem 0;
+    font-weight: 500;
+}
+
+
+.foot-logos{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    right: 5rem;
+    bottom: 3rem;
+}
+
+.foot-logos2{
+    display: none;
+    position: static;
+}
+@media (min-width: 768px) and (max-width: 1025px) {
+    /* Styles for all iPads */
+    body {
+        font-size: 18px;
+        overflow: auto;
+    }
+
+    .header{
+        height: 580px;
+        width: 1024px;
+    }
+    .navbar {
+        gap: 40px;
+        justify-content: flex-end;
+        padding-right: 4%;
+        font-size: 0.8rem;
+        padding-top: 2%;
+    }
+
+    .navlink {
+        gap: 40px;
+        width: 60%;
+    }
+
+    .navbar button {
+        padding: 1.4% 2%;
+        font-size: 0.8rem;
+    }
+
+    .head-content {
+        width: 65%;
+    }
+
+    .hc1 {
+        font-size: 3rem;
+    }
+
+    .hc2 {
+        line-height: 1.8;
+        padding-top: 3%;
+        font-size: 0.9rem;
+    }
+
+    .head-mail {
+        width: 74%;
+        padding-top: 6%;
+    }
+
+    .head-mail input {
+        width: 100%;
+        padding: 6%;
+    }
+
+    .head-mail button {
+        padding: 5% 5%;
+        top: 38%;
+        left: 75.5%;
+    }
+
+    .frame1 {
+        padding: 11% 0%;
+        padding-bottom: 15%;
+        margin: 0 auto;
+        width: 1024px;
+    }
+
+    .f1-title {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .f1-desc {
+        font-size: 1.5rem;
+        padding: 2% 0;
+        line-height: 1.5;
+        padding-bottom: 0;
+        width: 852px;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 34%;
+        padding-top: 8%;
+    }
+
+    .flex-cont1 {
+        justify-content: space-evenly;
+        width: 764px;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+
+    .c1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .c2 {
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: 400;
+        padding: 0 13%;
+    }
+
+    .frame2 {
+        padding: 2rem 0;
+        width: 1028px;
+        margin: 0 auto;
+    }
+
+    .f2-title {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    .f2-desc {
+        font-size: 1rem;
+        font-weight: 300;
+        padding: 0.5rem;
+    }
+
+    .card {
+        width: 316px;
+        padding-top: 8%;
+    }
+
+    .img-cont {
+        width: 76px;
+        height: 76px;
+        margin: 0 auto;
+    }
+
+    .card2 {
+        width: 18%;
+    }
+
+    .frame3 {
+        padding: 10rem 0;
+        padding-bottom: 3rem;
+        width: 1028px;
+    }
+
+    .f3sec {
+        padding-bottom: 7rem;
+        justify-content: space-evenly;
+    }
+
+    .sec-content {
+        width: 44.5%;
+        padding-right: 4%;
+    }
+
+    .img-cont3 {
+        width: 424px;
+        height: 404px;
+    }
+
+    .sec-head {
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+
+    .sec-content button{
+        padding: 1rem 3rem;
+    }
+
+    .frame4{
+        padding: 2rem 0;
+        width: 1024px;
+    }
+
+    .f4-logos {
+        justify-content: space-evenly;
+        padding: 2rem 0;
+        overflow-x: hidden;
+    }
+
+
+    .col {
+        width: 20%;
+    }
+
+    .frame5{
+        padding: 10rem 0;
+        width: 1024px;
+
+    }
+
+    .foot{
+        width: 1024px;
+    }
+
+    .flex-cont2{
+        padding-left: 2rem;
+
+    }
+}
+
+@media (max-width: 767px){
+    body{
+        font-size: 16px;
+    }
+
+    .header{
+        background-image: none;
+        position: relative;
+        padding-top: 0;
+        height: 601px;
+    }
+
+    .head-img {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        max-width: 767px;
+        height: 601px;
+    }
+
+    .head-img img {
+        object-position: 64%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .head-img::before{
+        content: "";
+        position: absolute;
+        background-image: url("../images/Rectangle\ 6.png");
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-size: cover;
+    }
+    .navlink{
+        display: none;
+    }
+
+    .menubars{
+        display: inline;
+        width: 24px;
+        margin: auto 0;;
+    }
+
+    .menubar{
+        width: 22px;
+        background-color: black;
+        padding: 1px;
+        margin-bottom: 5px;
+        border-radius: 6px;
+    }
+
+    .hc1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    
+    .hc2{
+        line-height: 1.8;
+        padding-top: 4%;
+        font-size: 0.78rem;
+    }
+
+    .head-content {
+        padding: 8% 0;
+        width: 335px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .navbar{
+        justify-content: space-between;
+        padding: 9%;
+    }
+
+    .navbar button{
+        padding: 3% 5%;
+    }
+
+    .head-mail input {
+        width: 100%;
+        padding: 7%;
+    }
+
+    .head-mail {
+        padding-top: 9%;
+    }
+
+    .head-mail button{
+        padding: 6% 5%;
+        top: 36%;
+        left: 74.5%;
+    }
+
+    .menubars2 .menubar{
+        background-color: white;
+    }
+
+    .hidden-menu{
+        background-color: #F84646;
+        color: white;
+        flex-direction: column;
+    }
+
+    .hidden-menu a{
+        color: white;
+        margin: 0 auto;
+        padding: 3%;
+    }
+
+    .frame1 {
+        padding: 15% 0;
+        width: 334px;
+        margin: 0 auto;
+    }
+
+    .f1-title {
+        font-size: 1.5rem;
+    }
+
+    .f1-desc {
+        font-size: 0.8rem;
+        padding: 3% 0;
+        line-height: 1.8;
+        padding-bottom: 20%;
+    }
+
+    .flex-cont1 {
+        width: 335px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }    
+
+    .c1 {
+        font-size: 1.5rem;
+        width: 284px;
+        padding: 3% 0;
+    }
+
+    .c2 {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        width: 298px;
+    }
+
+    .card {
+        width: 298px;
+        margin: 0 auto;
+        padding-bottom: 20%;
+    }
+
+    .frame2 {
+        padding: 4rem 0;;
+        width: 100%
+    }
+
+    .f2-title {
+        font-size: 2.3rem;
+        width: 335px;
+        margin: 0 auto;
+    }
+
+    .f2-desc {
+        font-size: 0.8rem;
+        width: 190px;
+        margin: 0 auto;
+    }
+
+    .flex-cont2 {
+        padding-top: 1rem;
+        flex-direction: column;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .card2 {
+        font-size: 1.15rem;
+        line-height: 1.8rem;
+        margin: 0 auto;
+        padding: 15% 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .flex-cont2 img {
+        transform: rotate(90deg);
+    }
+
+    .frame3 {
+        padding: 6rem 0;
+        width: 338px;
+        margin: 0 auto;
+        padding-bottom: 10rem;
+    }
+
+    .f3sec {
+        padding-bottom: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .f3sec2{
+        flex-direction: column-reverse;
+        padding-bottom: 8rem;
+    }
+
+    .sec-content {
+        width: 100%;
+        text-align: center;
+        padding-top: 8%;
+        padding-right: 0;
+    }
+
+    .sec-head {
+        font-size: 2.3rem;
+        line-height: 1.2;
+    }
+    
+    .sec-desc {
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #808080;
+        line-height: 2;
+        padding: 1rem 0;
+    }
+
+    .sec-content button{
+        left: 0;
+        bottom: -63px;
+        right: 0;
+    }
+
+    .img-cont3 {
+        width: 335px;
+        height: 312px;
+    }
+
+
+    .img-cont3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .frame4 {
+        padding: 2rem 0;
+        text-align: center;
+        background-color: #F4F5F7;
+        width: 100%;
+    }
+
+    .f4-head {
+        width: 333px;
+        margin: 0 auto;
+    }
+
+    .f4-title {
+        font-size: 2.2rem;
+        color: #18191F;
+    }
+
+    .f4-desc {
+        font-size: 0.85rem;
+        padding: 0.5rem 0;
+        font-weight: 500;
+    }
+
+    .f4-logos {
+        margin: 0 auto;
+        padding: 2rem 0;
+        width: 223px;
+        flex-direction: column;
+    }
+    
+    .col {
+        margin: 0 auto;
+        width: 175px;
+    }
+
+    .logo {
+        margin: 1rem 0;
+        padding: 1.4rem 0;
+        width: 100%;
+        height: 96px;
+    }
+    
+    .logo1 {
+        margin: 1rem 0;
+        width: 170px;
+        height: 96px;
+        padding: 5.4% 0;
+    }
+
+    .frame5 {
+        padding: 5rem 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .user-logo {
+        width: 75px;
+        margin: 0 auto;
+        height: 75px;
+    }
+
+    .user-logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .oc2 {
+        left: 31px;
+        padding: 1.3rem;
+    }
+
+    .f5-title {
+        font-size: 2rem;
+        width: 192px;
+        margin: 0 auto;
+    }
+
+    .f5-desc {
+        font-size: 0.9rem;
+        padding: 0.5rem 0;
+        width: 335px;
+        margin: 0 auto;
+    }
+
+    .frame5 button {
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        width: 124px;
+        margin: 0 auto;
+        margin-top: 4%;
+    }
+
+
+    .foot-logos{
+        display: none;
+    }
+    
+    .foot-logos2{
+        display: flex;
+    }
+
+    .foot{
+    padding: 2rem 0;
+    width: 100%;
+    text-align: left;
+    padding-left: 4%;
+    }
+
+    .foot1 {
+        flex-direction: column;
+        width: 259px;
+        gap: 0;
+    }
+
+    .foot2 {
+        padding: 3rem 0 2rem 0;
+        width: 259px;
+    }
+
+}

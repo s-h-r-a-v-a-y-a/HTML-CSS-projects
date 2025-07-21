@@ -1,0 +1,311 @@
+body{
+    margin:0;
+    font-family: "Outfit",sans-serif;
+}
+
+.header-banner{
+    color: #ffff;
+    background-color: #070606;
+}
+
+.header-banner1{
+    display: inline-block;
+    width: 80%;
+
+}
+
+.header-banner1 > p{
+    text-align: center;
+    padding-left: 20%;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.language-container{
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+}
+
+.language{
+    background-color: #070606;
+    color: #ffff;
+    border: none;
+}
+
+.header-navbar{
+    padding:2% 8% 1% 8%;
+    position: relative;
+    border: 1px solid #6a5b5b61;
+}
+.header-navbar1{
+    display: inline-block;
+    margin-right: 9%;
+}
+.header-navbar2{
+    display: inline-block;
+    word-spacing: 40px;
+}
+.gap{
+    word-spacing: 1px;
+}
+
+.header-navbar3{
+    display: inline-block;
+    background-color: #9187872b;
+    border-radius: 3%;
+    margin-left: 9%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2px;
+}
+
+.search-placeholder{
+    display: inline-block;
+    color: #878282;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 9px;
+    padding-right: 44px;
+}
+
+.search-icon{
+    padding-top: 0px;
+    vertical-align: middle;
+    padding-right: 4px;        
+}
+
+.header-icons{
+    display: inline-block;
+    padding-left: 3%;
+}
+
+.heart-icon{
+    position: absolute;
+    right: 14%;
+top: 51%;
+}
+
+.cart-icon{
+    position: absolute;
+    right: 11%;
+    top: 45%;
+}
+
+.user-icon{
+    position: absolute;
+    right: 8%;
+    top: 44%;
+}
+
+.body-head{
+    padding: 5% 8% 0% 8%;
+    word-spacing: 9px;
+}
+
+.body-path{
+    display: inline-block;
+    width: 50%;
+}
+.greeting{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.greeting>p{
+    margin: 0;
+    word-spacing: 3px;
+}
+
+.path-color{
+   color: #878282;
+}
+
+.greeting-color{
+    color: #dd4d4de0;
+}
+.main-body{
+    padding: 5% 8% 6% 8%;
+}
+.menu{
+    display: inline-block;
+    width: 30%;
+}
+.list{
+    list-style-type: none;
+    line-height: 28px;
+    padding-bottom: 1%;
+}
+.form{
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border-style: ridge;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    width: 50%;
+    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 8%;
+}
+
+.form-title{
+    font-size: 20px;
+}
+.form-section-1, .form-section-3{
+    display: inline-block;
+    width: 49%;
+    padding-bottom: 4%;
+}
+.form-section-2, .form-section-4{
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 4%;
+}
+.form-input{    
+    background-color: #9187872b;
+    border-radius: 3%;
+    border: none;
+    padding: 2%;
+}
+
+.pwd{
+    width: 100%;
+    margin-top: 3%;
+}
+
+.cancel-button{
+    position: absolute;
+    border: none;
+    right: 44%;
+    bottom: 7%;
+    background-color: white;
+}
+.save-button{
+    border: none;
+    position: absolute;
+    background-color: #dd4d4de0;
+    color: #ffff;
+    border-radius: 4%;
+    padding: 1% 3% 1% 3%;
+    right: 19%;
+    bottom: 6%;
+}
+.foot{
+    background-color: #070606;
+    padding: 3% 8% 3% 8%;
+    color: #ffff;
+}
+.foot-container-1{
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+}
+.foot-container-4{
+    display: inline-block;
+    width: 13%;
+    vertical-align: top;
+}
+
+.foot-mail{
+    line-height: 31px;
+    font-size: 12px;
+}
+
+.enter-mail{
+    border: 1px solid white;
+    position: relative;
+    padding-left: 6%;
+    font-size: 13px;
+    color: #878282;
+}
+
+.foot-send-icon{
+    position: absolute;
+    right: 9px;
+    top: 2px;
+}
+
+.foot-container-2{
+    display: inline-block;
+    width: 16%;
+    vertical-align: top;
+}
+
+.foot-title{
+    position: relative;
+    top:-11px;
+}
+
+.foot-titles{
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+
+.foot-container-3{
+    display: inline-block;
+    width: 11%;
+    vertical-align: top;
+}
+
+.download-content{
+    font-size: 11px;
+}
+
+.foot-container-5{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    position: relative;
+}
+.download-1{
+    display: inline-block;
+    width: 40%;
+}
+.download-2{
+    display: inline-block;
+    width: 58%;
+}
+.social-1{
+    position: absolute;
+    right: 23px;
+    bottom: -28px;
+}
+.social-2{
+    position: absolute;
+    bottom: -28px;
+    right: 75px;
+}
+.social-3{
+    position: absolute;
+    bottom: -28px;
+    right: 126px;
+}
+.social-4{
+    position: absolute;
+    bottom: -28px;
+    right: 180px;
+}
+.foot-spacing{
+    padding-right: 5%;
+    font-size: 13px;
+}
+
+.foot-body{
+    padding-bottom: 3%;
+}
+.foot-border{
+    border: 1px solid #6a5b5b61;
+}
+.foot-trademark{
+    text-align: center;
+    color: #878282;
+    font-size: 11px;
+    padding-top: 2%;
+}
